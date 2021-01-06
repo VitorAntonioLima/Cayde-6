@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    height: 100%;
+    padding: 0px 20px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: url(imagens/ship.png) no-repeat center center fixed;
+}
+
+.titulo {
+    font-size: 100px;
+    cursor: pointer;
+    color: rgb(218, 219, 219);
+}
+
+.flex-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+#cayde {
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.descricao {
+    width: 253px;
+    margin: 0px;
+    margin-top: 10px;
+    color: rgb(64, 224, 136);
+}
+
+#title {
+    font-family: monospace;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: url(imagens/nav-bg.jpg) !important;
+    padding: 8px 0px !important;
+    margin: 20px !important;
+    margin-bottom: 0px !important;
+}
+
+.navbar h1 a {
+    text-decoration: none;
+    color: rgb(64, 224, 136);
+}
+
+.txtbox{
+    background-color: #3f4547;
+    box-shadow: 0 0 1em rgb(6, 155, 31);
+    color: rgb(218, 219, 219);
+    margin: 20px 100px;
+    padding: 8px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+#sobre a {
+    color: rgb(64, 224, 136);
+}
+
+#timeline {
+    margin-top: 20px;
+}
+
+#img-div {
+    display: flex;
+    height: 340px;
+    width: 268px;
+    box-shadow: 0 0 1em rgb(6, 155, 31);
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.galeria img {
+    height: 480px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 18px rgb(6, 155, 31);
+    margin: 10px;
+    background-color:rgb(100, 100, 100)
+}
+
+footer {
+    margin: 20px !important;
+}
